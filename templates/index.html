@@ -7,13 +7,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
 
-    <h1> Hola mundo </h1>
+    <header class="hero">
 
-    <h2> Hola mundo 2 </h2>
+        <section class="hero__main container">
+
+            <div class="hero__texts">
+                <h1 class="hero__title">Titulo principal de la pagina</h1>
+                <h2 class="hero__copy">Selectores, box model, Pseudocodigo, Flexbox y mas....</h2>
+            </div>
     
+            <figure class="hero__img">
+                <img src="{% static 'images/dev.svg' %}" class="hero__picture">
+            </figure>
+
+        </section>
+
+        
+    </header>
+    
+    <a href="#" class="fa-brands fa-square-facebook"></a>
+    <a href="#" class="fa-brands fa-square-instagram"></a>
+    <a href="#" class="fa-brands fa-square-twitter"></a>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2fbe28dbff.js" crossorigin="anonymous"></script>
 </body>
 </html>

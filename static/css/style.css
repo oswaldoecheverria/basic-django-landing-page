@@ -1,10 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400&display=swap');
+
 *{
-    box-sizing: border-box;
-    padding: 0;
+    /*outline: 3px solid red;*/
+}
+
+:root{
+    --padding-container: 80px 0;
+    --color-primary: #f77062;
+    --color-secondary: #1b998b;
+    --color-bg: #fafafa;
+    --align-title: center;
+    --box-shadow: 0 0 12px rgba(0,0,0, .2);
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: var(--padding-container);
+
+}
+
+/* hero dection */
+.hero{
+    --padding-container: 0;
+    height: 100vh;
+    background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+}
+
+.hero__main{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+
+}
+
+.hero__img{
+    width: 45%;
+    text-align: center;
     margin: 0;
 }
 
-h1{
-    color: blueviolet;
-  
+.hero__picture{
+    max-width: 80%;
+}
+
+.hero__texts{
+    width: 45%;
+    columns: white;
+}
+
+.hero__title{
+    font-size: 4rem;
+}
+
+.hero__copy{
+    font-size: 1.5rem;
+    font-weight: 300;
 }
