@@ -167,3 +167,38 @@ body{
     text-decoration: none;
     font-weight: 300;
 }
+
+/* Copy section */
+
+.copy{
+    background: var(--color-primary);
+}
+
+.copy__texts{
+    --color-primary: #fff;
+}
+
+.title--margin{
+    margin: 0;
+}
+
+/* Gallery section */
+
+.gallery__container{
+    padding: 20px 0; 
+    display: block;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+
+.gallery__picture{
+    width: 30%;
+    height: 250px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: var(--box-shadow);
+} 
+
