@@ -76,7 +76,7 @@ body{
     text-align: var(--align-title);
 }
 
-.about__container{
+.about{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,4 +110,60 @@ body{
     border-radius: 30px;
     color: white;
     text-decoration: none;
+}
+
+
+/* Portfolio  section */
+
+.portfolio{
+    background: var(--color-bg);
+}
+
+.portfolio__cards{
+    display: flex;
+    padding: 40px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.portfolio__card{
+    width: 27%;
+    background: #fff;
+    height: auto;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+.portfolio__picture{
+    width: 100%;
+    display: block;
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.portfolio__texts{
+    padding: 30px 20px 40px;
+}
+
+.portfolio__title{
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--color-secondary);
+}
+
+.portfolio__paragraph{
+    font-weight: 300;
+    margin: 30px 0;
+}
+
+.portfolio__cta{
+    display: block;
+    background: var(--color-secondary);
+    padding: 15px 0;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
 }
