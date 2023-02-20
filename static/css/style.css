@@ -281,3 +281,152 @@ body{
 .footer__picture{
     width: 90%;
 }
+
+
+
+/*  BREAK POINT */
+
+/* primero en 800px hacia abajo*/
+@media screen and (max-width: 800px) {
+    .hero{
+        height: auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+    .hero__main{
+        justify-content: center;
+        text-align: center;
+        
+        
+    }
+
+    .hero__img{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+    .hero__picture{
+        max-width: 85%;
+    }
+
+    .hero__texts{
+        width: 100%;
+    }
+
+    .hero__title{
+        font-size: 3rem;
+    }
+
+    .hero__copy{
+        font-size: 1.2rem;
+    }
+
+    /* section about */
+
+    .about__texts{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        --align-title: center;
+    }
+
+    .about__img{
+        width: 100%;
+    }
+
+    /* section portfolio */
+
+    .portfolio__card{
+        width: 45%;
+        margin: 30px 0;
+    }
+
+    /* section gallery*/
+
+    .gallery__picture{
+        width: 45%;
+    }
+
+    /* section languages*/
+
+    .languages__container{
+        justify-content: space-between;
+    }
+
+    /* section footer*/
+
+    .footer__container{
+        flex-direction: column;
+    }
+
+    .footer__img{
+        order: -1;
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    .footer__picture{
+        width: 100%;
+    }
+
+    .footer__texts{
+        width: 100%;
+    }
+
+}
+
+
+
+/* primero en 550px hasta 320px*/
+@media screen and (max-width: 550px){
+
+    .hero__img{
+        width: 85%;
+    }
+
+    /* cards*/
+
+    .portfolio__card{
+        width: 90%;
+        max-width: 300px;
+    }
+
+    /* gallery */
+
+    .gallery__picture{
+        width: 90%;
+        max-width: 300px;
+    }
+
+    /* languages*/
+
+    .languages__container{
+        justify-content: space-around;
+    }
+
+    .languages__picture{
+        width: 35%;
+        margin-bottom: 30px;
+    }
+
+    /* footer */
+    .footer__img{
+        width: 30%;
+    }
+
+    .footer__img{
+        max-width: 330px;
+        margin-bottom: 40px;
+    }
+
+    .footer__nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
