@@ -14,6 +14,7 @@
 
     <header class="hero">
 
+        <!--  La clase container nos permite limitar y centrar el contenido en el css-->
         <section class="hero__main container">
 
             <div class="hero__texts">
@@ -27,8 +28,31 @@
 
         </section>
 
-        
     </header>
+
+    <main class="main">
+
+        <section class="about__container container">
+            <div class="about__texts">
+                <h2 class="title">¿Quienes somos?</h2>
+
+                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rem praesentium ratione delectus incidunt suscipit pariatur eius ab ipsa itaque, architecto perspiciatis, quisquam aperiam cumque.
+                </p>
+
+                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rem praesentium ratione delectus incidunt suscipit pariatur eius ab ipsa itaque, architecto perspiciatis, quisquam aperiam cumque.
+                </p>
+
+                <a href="#" class="about__cta">Únete al curso</a>
+
+            </div>
+
+            <figure class="about__img">
+                <img src="{% static 'images/people.svg' %}" alt="" class="about__picture">
+            </figure>
+
+        </section>
+
+    </main>
     
     <a href="#" class="fa-brands fa-square-facebook"></a>
     <a href="#" class="fa-brands fa-square-instagram"></a>
